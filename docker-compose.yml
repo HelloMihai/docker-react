@@ -20,4 +20,4 @@ services:
     volumes:
       - /app/node_modules
       - .:/app
-    command: echo "hello from docker-compose.yaml"
+    command: ['npm', 'run', 'test']
